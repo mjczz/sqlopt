@@ -48,30 +48,19 @@ googleAnalytics = "your ga id"
 
 # menubar setting, you can change url, weight and name except the 'Theme'.
 [[menu.main]]
-    name = "Article"
-    url = "#"
-    weight = 1
-[[menu.main]]
     name = "SQL优化"
-    url = "#"
+    url = "/sql"
     weight = 2
+[[menu.main]]
+    name = "PG学习"
+    url = "/learnpg"
+    weight = 3
 [[menu.main]]
     name = "侧边栏"
     url = "#"
     weight = 10
 
 # You can change the name, but please don't edit the identifier
-[[menu.main]]
-    parent = "Article"
-    name = "Posts"
-    url = "/posts"
-    weight = 1
-[[menu.main]]
-    parent = "SQL优化"
-    name = "sql"
-    url = "/sql"
-    weight = 1
-
 [[menu.main]]
     parent = "侧边栏"
     identifier = "toggle-sidebar"
